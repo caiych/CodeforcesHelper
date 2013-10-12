@@ -15,7 +15,7 @@ e.g. *./test main.cc* or *./test a.out*
 
 # Features
 
-* Automatically parse the HTML of a given problem ID in a problem set(gym).
+* Automatically parse the HTML of a given problem ID in a problem set.
 * Generate a testscript.
 * Compile and test a source code ( only C++ is available so far ).
 
