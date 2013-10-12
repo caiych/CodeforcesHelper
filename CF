@@ -17,8 +17,7 @@ try:
 except:
     print 'bad problem ID'
     sys.exit(0)
-
-con = fd.read()
+con = fd.read().decode(fd.headers.getparam('charset'))
 fd.close()
 
 #get input & output
