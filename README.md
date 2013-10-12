@@ -23,3 +23,8 @@ e.g. *./test main.cc* or *./test a.out*
 
 
 
+# TODO
+
+* may configure the test script
+* support some other language
+* is the testscript goes into system directory is better?
