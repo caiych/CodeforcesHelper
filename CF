@@ -100,7 +100,10 @@ for a,b in izip(inp,out):
         print 'Wrong\nInput:\n%s\nExpect:\n%s\nReturned:\n%s\n'%(a,b,o)
     os.remove('.in')
     
-os.remove('.tmp')
+try:
+    os.remove('.tmp')
+except:
+    pass
 """
 
 f = open(dir2do+'/test','w')
